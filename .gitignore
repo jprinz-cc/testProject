@@ -1,5 +1,12 @@
-# https://git-scm.com/docs/gitignore
-# https://help.github.com/articles/ignoring-files
-# Example .gitignore files: https://github.com/github/gitignore
-/bower_components/
+# ignore packages installed by npm
+node_modules
+
+# put any other files you don't want to check in here,
+# such as .DS_Store (OSC), *.bak, etc.
 /node_modules/
+*.njsproj
+*.snl
+/.vs/
+/bin/
+/obj/
+.ntcs_analysis.dat
